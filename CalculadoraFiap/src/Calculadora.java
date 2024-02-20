@@ -1,26 +1,26 @@
 public class Calculadora {
-// atributo
+// Atributo
 	private int resultado = 0;
 
-// método somar
+// Método Somar
 	public int somar(int n1, int n2) {
 		resultado = n1 + n2;
 		return resultado;
 	}
 
-// método subtrair
+// Método Subtrair
 	public int subtrair(int n1, int n2) {
 		resultado = n1 - n2;
 		return resultado;
 	}
 
-// método multiplicar
+// Método Multiplicar
 	public int multiplicar(int n1, int n2) {
 		resultado = n1 * n2;
 		return resultado;
 	}
 
-// método dividir
+// Método Dividir
 	public int dividir(int n1, int n2) {
 		resultado = n1 / n2;
 		return resultado;
