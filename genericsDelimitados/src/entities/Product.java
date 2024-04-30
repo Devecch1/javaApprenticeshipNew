@@ -29,7 +29,7 @@ public class Product implements Comparable<Product>{				// FAZER COM QUE MINHA C
 	
 	@Override
 	public String toString() {
-		return name + ", " + String.format("%.2f", price);			// toString IMPRIMINDO NOME E PREÇO DO PRODUTO
+		return name + " - " + String.format("%.2f", price);			// toString IMPRIMINDO NOME E PREÇO DO PRODUTO
 	}
 
 	@Override
